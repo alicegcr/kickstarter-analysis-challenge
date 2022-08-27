@@ -5,15 +5,15 @@
 --- 
 
 ### Purpose
-- About the data 
-* It is a datasets of plays from 2009 to 2017 included information from 21 countries.
+About the data 
+* This is a datasets of plays from 2009 to 2017 including information from 21 countries.
 * The columns has information about the id plays, the plays's name, the play's blurb, 
 
-- This project want to answer the next question:
+This project want to answer the next question:
 
 * How different campaigns fared in relations to the plays launch dates and their funding goals?
 
-- To answer the main question:
+To answer the main question:
 * converted the launch date from timestamps to regular dates 
 * applied a condionational formatting to the coutcomes column so I could visualize better the data 
 * converted the goal column from currency to general numbers 
@@ -26,7 +26,7 @@
 
 ### Analysis of Outcomes Based on Launch Date
 
-- to find the results on this analysis:
+To find the results on this analysis:
 * created a Pivot table on a new sheet 
 * named the sheet Theater Outcomes by Launched Dates 
 * Filteres by Parent Category and Year
@@ -34,7 +34,7 @@
 * Counts of Outcomes on Values 
 * filtered the Parent Category by Theater 
 
-- results:
+Results:
 ![Theater_Outcomes_vs_Launch](Theater_Outcomes_vs_Launch.png)
 
 * It is a descriptive data that shows thhe month that had the most successful numbers was May and the month that had the most failed plays was October comparing the numbers total plays on the month. 
@@ -42,7 +42,7 @@
 
 ### Analysis of Outcomes Based on Goals
 
-- to find the results on this analysis:
+To find the results on this analysis:
 * on the dataset Kickstarter I filtered the subcategory by plays and the outcomes by successful, failed and caceled
 * created a new sheet with the filtered information 
 * created the Outcomes Based on Goals 
@@ -55,7 +55,7 @@
 
 ```=COUNTIFS('Plays subcategory data'!$D$2:$D$1067;">=1000";'Plays subcategory data'!$D$2:$D$1067; "<=4999";'Plays subcategory data'!$F$2:$F$1067;"=successful")```
 
-- results:
+Results:
 ![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
 
 * On this analysis I could viasualize the why the number of failed plays was high, most of the plays that failed they had a higher funding goal, and they could not reached it. 
