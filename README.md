@@ -35,7 +35,7 @@
 * filtered the Parent Category by Theater 
 
 - results:
-![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](Theater_Outcomes_vs_Launch.png)
 
 * It is a descriptive data that shows thhe month that had the most successful numbers was May and the month that had the most failed plays was October comparing the numbers total plays on the month. 
 
@@ -56,7 +56,7 @@
 ```=COUNTIFS('Plays subcategory data'!$D$2:$D$1067;">=1000";'Plays subcategory data'!$D$2:$D$1067; "<=4999";'Plays subcategory data'!$F$2:$F$1067;"=successful")```
 
 - results:
-![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
 
 * On this analysis I could viasualize the why the number of failed plays was high, most of the plays that failed they had a higher funding goal, and they could not reached it. 
 
